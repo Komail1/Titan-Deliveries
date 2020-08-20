@@ -1,0 +1,19 @@
+C:\Users\Raza Zaidi\source\repos\Titan Deliveries\bin\Debug\netcoreapp3.1\Titan Deliveries.exe
+C:\Users\Raza Zaidi\source\repos\Titan Deliveries\bin\Debug\netcoreapp3.1\Titan Deliveries.deps.json
+C:\Users\Raza Zaidi\source\repos\Titan Deliveries\bin\Debug\netcoreapp3.1\Titan Deliveries.runtimeconfig.json
+C:\Users\Raza Zaidi\source\repos\Titan Deliveries\bin\Debug\netcoreapp3.1\Titan Deliveries.runtimeconfig.dev.json
+C:\Users\Raza Zaidi\source\repos\Titan Deliveries\bin\Debug\netcoreapp3.1\Titan Deliveries.dll
+C:\Users\Raza Zaidi\source\repos\Titan Deliveries\bin\Debug\netcoreapp3.1\Titan Deliveries.pdb
+C:\Users\Raza Zaidi\source\repos\Titan Deliveries\obj\Debug\netcoreapp3.1\Titan Deliveries.csprojAssemblyReference.cache
+C:\Users\Raza Zaidi\source\repos\Titan Deliveries\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Raza Zaidi\source\repos\Titan Deliveries\obj\Debug\netcoreapp3.1\Window1.g.cs
+C:\Users\Raza Zaidi\source\repos\Titan Deliveries\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Raza Zaidi\source\repos\Titan Deliveries\obj\Debug\netcoreapp3.1\Titan Deliveries_MarkupCompile.cache
+C:\Users\Raza Zaidi\source\repos\Titan Deliveries\obj\Debug\netcoreapp3.1\Titan Deliveries_MarkupCompile.lref
+C:\Users\Raza Zaidi\source\repos\Titan Deliveries\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Raza Zaidi\source\repos\Titan Deliveries\obj\Debug\netcoreapp3.1\Window1.baml
+C:\Users\Raza Zaidi\source\repos\Titan Deliveries\obj\Debug\netcoreapp3.1\Titan Deliveries.g.resources
+C:\Users\Raza Zaidi\source\repos\Titan Deliveries\obj\Debug\netcoreapp3.1\Titan Deliveries.AssemblyInfoInputs.cache
+C:\Users\Raza Zaidi\source\repos\Titan Deliveries\obj\Debug\netcoreapp3.1\Titan Deliveries.AssemblyInfo.cs
+C:\Users\Raza Zaidi\source\repos\Titan Deliveries\obj\Debug\netcoreapp3.1\Titan Deliveries.dll
+C:\Users\Raza Zaidi\source\repos\Titan Deliveries\obj\Debug\netcoreapp3.1\Titan Deliveries.pdb

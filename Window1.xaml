@@ -1,0 +1,38 @@
+﻿<Window x:Class="Titan_Deliveries.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Titan_Deliveries"
+        mc:Ignorable="d"
+        Title="Splashy" Height="435" Width="452" AllowsTransparency="True" WindowStyle="None" ResizeMode="NoResize" ShowInTaskbar="False" WindowStartupLocation="CenterScreen" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+    <Grid x:Name="SplashScreen" Height="434" OpacityMask="#FFE6E6E6" ScrollViewer.VerticalScrollBarVisibility="Disabled" Cursor="None" Initialized="SplashScreen_Initialized">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FF580289" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="17*"/>
+            <ColumnDefinition Width="209*"/>
+            <ColumnDefinition Width="225*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Ellipse x:Name="Loading" Grid.ColumnSpan="4" Height="434" Stroke="Black" VerticalAlignment="Center" HorizontalAlignment="Left" Width="450">
+            <Ellipse.Fill>
+                <ImageBrush ImageSource="SplashloadStart.png"/>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Ellipse Grid.ColumnSpan="4" HorizontalAlignment="Left" Height="414" Stroke="Black" VerticalAlignment="Center" Width="430" Margin="10,0,0,0">
+            <Ellipse.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF580289" Offset="1"/>
+                </LinearGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+    </Grid>
+</Window>

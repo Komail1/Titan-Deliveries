@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Titan_Deliveries</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Splashload1.png" />
+    <None Remove="Splashload13.png" />
+    <None Remove="Splashload7.png" />
+    <None Remove="SplashloadStart.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Splashload1.png" />
+    <Resource Include="Splashload13.png" />
+    <Resource Include="Splashload7.png" />
+    <Resource Include="SplashloadStart.png" />
+  </ItemGroup>
+
+</Project>
