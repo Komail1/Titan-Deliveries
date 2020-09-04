@@ -8,17 +8,81 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="AddressIcon.png" />
+    <None Remove="Deal1.png" />
+    <None Remove="Deal10.png" />
+    <None Remove="Deal11.png" />
+    <None Remove="Deal12.png" />
+    <None Remove="Deal13.png" />
+    <None Remove="Deal14.png" />
+    <None Remove="Deal15.png" />
+    <None Remove="Deal2.png" />
+    <None Remove="Deal3.png" />
+    <None Remove="Deal4.png" />
+    <None Remove="Deal5.png" />
+    <None Remove="Deal6.png" />
+    <None Remove="Deal7.png" />
+    <None Remove="Deal8.png" />
+    <None Remove="Deal9.png" />
+    <None Remove="fbicon.png" />
+    <None Remove="gmaillogo.png" />
+    <None Remove="HomeIcon.png" />
+    <None Remove="HomePromoCycler.png" />
+    <None Remove="instalogo.jpg" />
+    <None Remove="Main Logo.png" />
+    <None Remove="map.png" />
+    <None Remove="MascotHome.png" />
+    <None Remove="MascotVictory.png" />
+    <None Remove="MenuIconn.png" />
+    <None Remove="NextIcon.png" />
+    <None Remove="PaymentIcon.png" />
+    <None Remove="PaymentIcons.png" />
+    <None Remove="PrevIcon.png" />
     <None Remove="Splashload1.png" />
     <None Remove="Splashload13.png" />
     <None Remove="Splashload7.png" />
     <None Remove="SplashloadStart.png" />
+    <None Remove="TrackingIcon.png" />
+    <None Remove="TrackOrderButton.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="AddressIcon.png" />
+    <Resource Include="Deal1.png" />
+    <Resource Include="Deal10.png" />
+    <Resource Include="Deal11.png" />
+    <Resource Include="Deal12.png" />
+    <Resource Include="Deal13.png" />
+    <Resource Include="Deal14.png" />
+    <Resource Include="Deal15.png" />
+    <Resource Include="Deal2.png" />
+    <Resource Include="Deal3.png" />
+    <Resource Include="Deal4.png" />
+    <Resource Include="Deal5.png" />
+    <Resource Include="Deal6.png" />
+    <Resource Include="Deal7.png" />
+    <Resource Include="Deal8.png" />
+    <Resource Include="Deal9.png" />
+    <Resource Include="fbicon.png" />
+    <Resource Include="gmaillogo.png" />
+    <Resource Include="HomeIcon.png" />
+    <Resource Include="HomePromoCycler.png" />
+    <Resource Include="instalogo.jpg" />
+    <Resource Include="Main Logo.png" />
+    <Resource Include="map.png" />
+    <Resource Include="MascotHome.png" />
+    <Resource Include="MascotVictory.png" />
+    <Resource Include="MenuIconn.png" />
+    <Resource Include="NextIcon.png" />
+    <Resource Include="PaymentIcon.png" />
+    <Resource Include="PaymentIcons.png" />
+    <Resource Include="PrevIcon.png" />
     <Resource Include="Splashload1.png" />
     <Resource Include="Splashload13.png" />
     <Resource Include="Splashload7.png" />
     <Resource Include="SplashloadStart.png" />
+    <Resource Include="TrackingIcon.png" />
+    <Resource Include="TrackOrderButton.png" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,163 @@
+﻿<Window x:Class="Titan_Deliveries.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Titan_Deliveries"
+        mc:Ignorable="d"
+        Title="Window3" Height="683" Width="1068" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" MappingMode="RelativeToBoundingBox">
+            <GradientStop Color="Black"/>
+            <GradientStop Color="#FF580289" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Height="668" Width="1068">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="355*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="35,37,0,0" VerticalAlignment="Top" Width="224" Height="77" RenderTransformOrigin="1.328,1.409">
+            <Label.Background>
+                <ImageBrush ImageSource="Main Logo.png"/>
+            </Label.Background>
+        </Label>
+        <Border BorderThickness="1" BorderBrush="Black" Margin="10,10,806,27">
+            <Button x:Name="HomeButt" Content="" BorderThickness="1,1,1,1" BorderBrush="Black" Foreground="White" Padding="0,0,0,6" Focusable="False" Click="HomeButt_Click"  IsCancel="True" ClickMode="Release" ScrollViewer.HorizontalScrollBarVisibility="Disabled" RenderTransformOrigin="0.5,0.5" Margin="21,155,9,412" ScrollViewer.VerticalScrollBarVisibility="Disabled"  >
+                <Button.Background>
+                    <ImageBrush ImageSource="HomeIcon.png">
+                        <ImageBrush.RelativeTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </ImageBrush.RelativeTransform>
+                    </ImageBrush>
+                </Button.Background>
+            </Button>
+        </Border>
+        <Button x:Name="MenuButt" Content="" BorderThickness="1,1,1,1" BorderBrush="Black" Foreground="White" Padding="0,0,0,6" Focusable="False" Click="MenuButt_Click"  IsCancel="True" ClickMode="Release" ScrollViewer.HorizontalScrollBarVisibility="Disabled" RenderTransformOrigin="0.5,0.5" Margin="35,262,813,339" ScrollViewer.VerticalScrollBarVisibility="Disabled"  >
+            <Button.Background>
+                <ImageBrush ImageSource="MenuIconn.png">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="TrackButt" Content="" BorderThickness="1,1,1,1" BorderBrush="Black" Foreground="White" Padding="0,0,0,6" Focusable="False" Click="TrackButt_Click"  IsCancel="True" ClickMode="Release" ScrollViewer.HorizontalScrollBarVisibility="Disabled" RenderTransformOrigin="0.5,0.5" Margin="35,359,812,242" ScrollViewer.VerticalScrollBarVisibility="Disabled"  >
+            <Button.Background>
+                <ImageBrush ImageSource="TrackingIcon.png">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="PaymentButt" Content="" BorderThickness="1,1,1,1" BorderBrush="Black" Foreground="White" Padding="0,0,0,6" Focusable="False" Click="PaymentButt_Click"  IsCancel="True" ClickMode="Release" ScrollViewer.HorizontalScrollBarVisibility="Disabled" RenderTransformOrigin="0.5,0.5" Margin="35,461,812,139" ScrollViewer.VerticalScrollBarVisibility="Disabled"  >
+            <Button.Background>
+                <ImageBrush ImageSource="PaymentIcon.png">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="AddressButt" Content="" BorderThickness="1,1,1,1" BorderBrush="Black" Foreground="White" Padding="0,0,0,6" Focusable="False"   IsCancel="True" ClickMode="Release" ScrollViewer.HorizontalScrollBarVisibility="Disabled" RenderTransformOrigin="0.5,0.5" Margin="35,564,812,27" ScrollViewer.VerticalScrollBarVisibility="Disabled"  Click="AddressButt_Click" >
+            <Button.Background>
+                <ImageBrush ImageSource="AddressIcon.png">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+        <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="614" Margin="284,37,0,0" VerticalAlignment="Top" Width="757">
+            <Grid x:Name="mappy" Margin="9,9,9,88">
+                <Grid.Background>
+                    <ImageBrush ImageSource="map.png"/>
+                </Grid.Background>
+            </Grid>
+        </Border>
+        <Button x:Name="fbbutt" BorderThickness="0,0,0,0" BorderBrush="Black" Foreground="White" Padding="0,0,0,6" Focusable="False" Click="fbbutt_Click"  IsCancel="True" ClickMode="Release" ScrollViewer.HorizontalScrollBarVisibility="Disabled" RenderTransformOrigin="0.556,0.478" Margin="883,588,137,35" ScrollViewer.VerticalScrollBarVisibility="Disabled"  Width="45" Height="45" >
+            <Button.Background>
+                <ImageBrush ImageSource="fbicon.png">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="insta_Butt" Content="" BorderThickness="0,0,0,0" BorderBrush="Black" Foreground="White" Padding="0,0,0,6" Focusable="False" Click="insta_Butt_Click"  IsCancel="True" ClickMode="Release" ScrollViewer.HorizontalScrollBarVisibility="Disabled" RenderTransformOrigin="0.556,0.478" Margin="933,588,87,35" ScrollViewer.VerticalScrollBarVisibility="Disabled"  Width="45" Height="45" >
+            <Button.Background>
+                <ImageBrush ImageSource="instalogo.jpg">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Gmail_Butt" Content="" BorderThickness="0,0,0,0" BorderBrush="Black" Foreground="White" Padding="0,0,0,6" Focusable="False" Click="Gmail_Butt_Click"  IsCancel="True" ClickMode="Release" ScrollViewer.HorizontalScrollBarVisibility="Disabled" RenderTransformOrigin="0.556,0.478" Margin="983,588,37,35" ScrollViewer.VerticalScrollBarVisibility="Disabled"  Width="45" Height="45" >
+            <Button.Background>
+                <ImageBrush ImageSource="gmaillogo.png">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="AddressButt_Copy" Content="" BorderThickness="1,1,1,1" BorderBrush="Black" Foreground="White" Padding="0,0,0,6" Focusable="False" Click="AddressButt_Copy_Click"  IsCancel="True" ClickMode="Release" ScrollViewer.HorizontalScrollBarVisibility="Disabled" RenderTransformOrigin="0.5,0.5" Margin="297,580,478,35" ScrollViewer.VerticalScrollBarVisibility="Disabled"  >
+            <Button.Background>
+                <ImageBrush ImageSource="TrackOrderButton.png">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+        <Label x:Name="animbuddy" Content="" HorizontalAlignment="Left" Margin="600,595,0,0" VerticalAlignment="Top" Width="24" MouseDown="animbuddy_MouseDown" Cursor="None"/>
+    </Grid>
+</Window>
+

@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Titan_Deliveries"
         mc:Ignorable="d"
         Title="Splashy" Height="435" Width="452" AllowsTransparency="True" WindowStyle="None" ResizeMode="NoResize" ShowInTaskbar="False" WindowStartupLocation="CenterScreen" ScrollViewer.VerticalScrollBarVisibility="Disabled">
-    <Grid x:Name="SplashScreen" Height="434" OpacityMask="#FFE6E6E6" ScrollViewer.VerticalScrollBarVisibility="Disabled" Cursor="None" Initialized="SplashScreen_Initialized">
+    <Grid x:Name="SplashScreen" Height="434" OpacityMask="#FFE6E6E6" ScrollViewer.VerticalScrollBarVisibility="Disabled"  Cursor="None">
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="Black"/>
@@ -21,12 +21,12 @@
             <ColumnDefinition Width="0*"/>
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
-        <Ellipse x:Name="Loading" Grid.ColumnSpan="4" Height="434" Stroke="Black" VerticalAlignment="Center" HorizontalAlignment="Left" Width="450">
+        <Ellipse x:Name="Loading" Grid.ColumnSpan="4" Height="434" Stroke="Black" VerticalAlignment="Center" HorizontalAlignment="Left" Width="450" IsVisibleChanged="Loading_IsVisibleChanged">
             <Ellipse.Fill>
                 <ImageBrush ImageSource="SplashloadStart.png"/>
             </Ellipse.Fill>
         </Ellipse>
-        <Ellipse Grid.ColumnSpan="4" HorizontalAlignment="Left" Height="414" Stroke="Black" VerticalAlignment="Center" Width="430" Margin="10,0,0,0">
+        <Ellipse x:Name="MascotAnim" Grid.ColumnSpan="4" HorizontalAlignment="Left" Height="414" Stroke="Black" VerticalAlignment="Center" Width="430" Margin="10,0,0,0">
             <Ellipse.Fill>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black"/>
@@ -34,5 +34,21 @@
                 </LinearGradientBrush>
             </Ellipse.Fill>
         </Ellipse>
+        <Label x:Name="shift1" Content=" " Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" MouseDown="shift1_MouseDown_1" Grid.ColumnSpan="2"/>
+        <Label x:Name="shift2" Content=" " Grid.Column="2" HorizontalAlignment="Left" Margin="6,10,0,0" VerticalAlignment="Top" MouseDown="shift2_MouseDown_1"/>
+        <Label x:Name="shift3" Content=" " Grid.Column="2" HorizontalAlignment="Left" Margin="13,10,0,0" VerticalAlignment="Top" MouseDown="shift3_MouseDown_1"/>
+        <Label x:Name="shift4" Content=" " Grid.Column="2" HorizontalAlignment="Left" Margin="24,10,0,0" VerticalAlignment="Top" MouseDown="shift4_MouseDown_1"/>
+        <Label x:Name="shift5" Content=" " Grid.Column="2" HorizontalAlignment="Left" Margin="37,10,0,0" VerticalAlignment="Top" MouseDown="shift5_MouseDown_1"/>
+        <Label x:Name="shift6" Content=" " Grid.Column="2" HorizontalAlignment="Left" Margin="50,10,0,0" VerticalAlignment="Top" MouseDown="shift6_MouseDown_1"/>
+        <Label x:Name="shift7" Content=" " Grid.Column="2" HorizontalAlignment="Left" Margin="63,10,0,0" VerticalAlignment="Top" MouseDown="shift7_MouseDown_1"/>
+        <Label x:Name="shift8" Content=" " Grid.Column="2" HorizontalAlignment="Left" Margin="76,10,0,0" VerticalAlignment="Top" MouseDown="shift8_MouseDown_1"/>
+        <Label x:Name="shift9" Content=" " Grid.Column="2" HorizontalAlignment="Left" Margin="94,10,0,0" VerticalAlignment="Top" MouseDown="shift9_MouseDown_1"/>
+        <Label x:Name="shift10" Content=" " Grid.Column="2" HorizontalAlignment="Left" Margin="105,10,0,0" VerticalAlignment="Top" MouseDown="shift10_MouseDown_1"/>
+        <Label x:Name="shift11" Content=" " Grid.Column="2" HorizontalAlignment="Left" Margin="123,10,0,0" VerticalAlignment="Top" MouseDown="shift11_MouseDown_1"/>
+        <Label x:Name="shift12" Content=" " Grid.Column="2" HorizontalAlignment="Left" Margin="136,10,0,0" VerticalAlignment="Top" MouseDown="shift12_MouseDown_1"/>
+        <Label x:Name="shift13" Content=" " Grid.Column="2" HorizontalAlignment="Left" Margin="149,10,0,0" VerticalAlignment="Top" MouseDown="shift13_MouseDown_1"/>
+        <Label x:Name="shift14" Content=" " Grid.Column="2" HorizontalAlignment="Left" Margin="162,10,0,0" VerticalAlignment="Top" MouseDown="shift14_MouseDown_1"/>
+        <Label x:Name="shift15" Content=" " Grid.Column="2" HorizontalAlignment="Left" Margin="175,10,0,0" VerticalAlignment="Top" MouseDown="shift15_MouseDown_1"/>
+        <Label x:Name="shift16" Content=" " Grid.Column="2" HorizontalAlignment="Left" Margin="188,10,0,0" VerticalAlignment="Top" MouseDown="shift16_MouseDown_1"/>
     </Grid>
 </Window>

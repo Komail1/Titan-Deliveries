@@ -1,11 +1,11 @@
-﻿<Window x:Name="Mainy" x:Class="Titan_Deliveries.MainWindow"
+﻿<Window x:Class="Titan_Deliveries.Window5"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Titan_Deliveries"
         mc:Ignorable="d"
-        Title="MainWindow" Height="683" Width="1068" WindowStartupLocation="CenterScreen" UseLayoutRounding="False" FontFamily="Britannic Bold" ScrollViewer.VerticalScrollBarVisibility="Disabled" ResizeMode="CanMinimize" Focusable="True">
+        Title="Window5" Height="683" Width="1068" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
     <Window.Background>
         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" MappingMode="RelativeToBoundingBox">
             <GradientStop Color="Black"/>
@@ -90,37 +90,7 @@
                 </ImageBrush>
             </Button.Background>
         </Button>
-        <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="614" Margin="284,37,0,0" VerticalAlignment="Top" Width="757">
-            <Rectangle x:Name="PromoCycler" HorizontalAlignment="Center" Height="524" Stroke="Black" VerticalAlignment="Top" Width="737" Margin="0,9,0,0"  Loaded="PromoCycler_Loaded" />
-        </Border>
-        <Button x:Name="PrevButt" Content="" BorderThickness="1,1,1,1" BorderBrush="Black" Foreground="White" Padding="0,0,0,6" Focusable="False" Click="PrevButt_Click"  IsCancel="True" ClickMode="Release" ScrollViewer.HorizontalScrollBarVisibility="Disabled" RenderTransformOrigin="0.5,0.5" Margin="298,587,702,53" ScrollViewer.VerticalScrollBarVisibility="Disabled" IsMouseDirectlyOverChanged="HomeButt_IsMouseDirectlyOverChanged" >
-            <Button.Background>
-                <ImageBrush ImageSource="PrevIcon.png">
-                    <ImageBrush.RelativeTransform>
-                        <TransformGroup>
-                            <ScaleTransform/>
-                            <SkewTransform/>
-                            <RotateTransform/>
-                            <TranslateTransform/>
-                        </TransformGroup>
-                    </ImageBrush.RelativeTransform>
-                </ImageBrush>
-            </Button.Background>
-        </Button>
-        <Button x:Name="NextButt" Content="" BorderThickness="0,0,0,0" BorderBrush="Black" Foreground="White" Padding="0,0,0,6" Focusable="False" Click="NextButt_Click"  IsCancel="True" ClickMode="Release" ScrollViewer.HorizontalScrollBarVisibility="Disabled" RenderTransformOrigin="0.5,0.5" Margin="384,588,616,52" ScrollViewer.VerticalScrollBarVisibility="Disabled" >
-            <Button.Background>
-                <ImageBrush ImageSource="NextIcon.png">
-                    <ImageBrush.RelativeTransform>
-                        <TransformGroup>
-                            <ScaleTransform/>
-                            <SkewTransform/>
-                            <RotateTransform/>
-                            <TranslateTransform/>
-                        </TransformGroup>
-                    </ImageBrush.RelativeTransform>
-                </ImageBrush>
-            </Button.Background>
-        </Button>
+        <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="614" Margin="284,37,0,0" VerticalAlignment="Top" Width="757"/>
         <Button x:Name="fbbutt" BorderThickness="0,0,0,0" BorderBrush="Black" Foreground="White" Padding="0,0,0,6" Focusable="False" Click="fbbutt_Click"  IsCancel="True" ClickMode="Release" ScrollViewer.HorizontalScrollBarVisibility="Disabled" RenderTransformOrigin="0.556,0.478" Margin="883,588,140,45" ScrollViewer.VerticalScrollBarVisibility="Disabled" IsMouseDirectlyOverChanged="HomeButt_IsMouseDirectlyOverChanged" Width="45" Height="45" >
             <Button.Background>
                 <ImageBrush ImageSource="fbicon.png">
@@ -165,5 +135,23 @@
         </Button>
         <Label Content="Check out our actual startups!" Foreground="White" Margin="703,591,190,61" Cursor=""/>
         <Label Content="-Syed Raza Haider Zaidi 6750" Foreground="White" Margin="708,609,185,43" Cursor=""/>
+        <Label Content="food to reach your plate :)" HorizontalAlignment="Left" Margin="319,115,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="22"/>
+        <Label Content="Enter your addresses here so it takes less time for your" HorizontalAlignment="Left" Margin="319,76,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="22"/>
+        <Label Content="Home" HorizontalAlignment="Left" Margin="319,186,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="20"/>
+        <Label Content="Work" HorizontalAlignment="Left" Margin="319,262,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="20"/>
+        <Label Content="2nd Wife's Home" HorizontalAlignment="Left" Margin="319,336,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="20"/>
+        <Label Content="Other" HorizontalAlignment="Left" Margin="319,404,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Copperplate Gothic Bold" FontSize="20"/>
+        <Label Content="( ͡° ͜ʖ ͡°)" HorizontalAlignment="Left" Margin="319,479,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Arial" FontSize="20"/>
+        <TextBox HorizontalAlignment="Left" Margin="319,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="343"/>
+        <TextBox HorizontalAlignment="Left" Margin="319,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="343"/>
+        <TextBox HorizontalAlignment="Left" Margin="319,368,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="343"/>
+        <TextBox HorizontalAlignment="Left" Margin="319,436,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="343"/>
+        <TextBox HorizontalAlignment="Left" Margin="319,517,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="343"/>
+        <Label x:Name="MascotHome" Content="" HorizontalAlignment="Left" Margin="769,262,0,0" VerticalAlignment="Top" Height="321" Width="299">
+            <Label.Background>
+                <ImageBrush ImageSource="MascotHome.png"/>
+            </Label.Background>
+        </Label>
     </Grid>
 </Window>
+
